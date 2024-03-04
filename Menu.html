@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    h2{
+        color: white;
+        background-color: #0A525A;
+    }
+</style>
+<body>
+    <!-- Judul Aplikasi -->
+    <tr>
+        <td>
+            <h1 align="center">APLIKASI PENGELOLAAN KLINIK SAMSUL</h1>
+        </td>
+    </tr>
+
+    <!-- Tabel Menu -->
+    <table border="1" width="30%" cellpadding="5" align="center">
+        <form>
+            <!-- Baris untuk Menu -->
+            <tr bgcolor="#0A525A">
+                <td>
+                    <!-- Judul Menu -->
+                    <h2 align="center">Menu</h2>
+                </td>
+            <tr>
+                <!-- Link Menu Data Pasien -->
+                <td><a href="data_pasien.php">Data Pasien
+            <tr>
+                <!-- Link Menu Data Poli -->
+                </td>
+                <td><a href="data_poli.php">Data Poli
+            <tr>
+                <!-- Link Menu Data Dokter -->
+                </td>
+                <td><a href="data_dokterphp">Data Dokter
+            <tr>
+                <!-- Link Menu Data Berobat -->
+                </td>
+                <td><a href="data_berobat.php">Data Berobat
+            <tr>
+                </td>
+        </form>
+    </table>
+
+    <!-- Tabel Laporan -->
+    <table border="1" width="30%" cellpadding="5" align="center">
+        <form>
+            <!-- Baris untuk Menu Laporan -->
+            <tr>
+                <td align="center">
+                    <!-- Tombol untuk Menu Laporan -->
+                    <input type="button" value="Laporan" onclick="location=''">
+                </td>
+            </tr>
+            <tr>
+                <td align="center">
+                    <!-- Tombol untuk Laporan Dokter -->
+                    <input type="button" value="Lap Dokter" onclick="location='data_dokter.php'">
+                </td>
+            </tr>
+            <tr>
+                <td align="center">
+                    <!-- Tombol untuk Laporan Pasien -->
+                    <input type="button" value="Lap Pasien" onclick="location='data_pasien.php'">
+                </td>
+            </tr>
+            <tr>
+                <td align="center">
+                    <!-- Tombol untuk Laporan Berobat -->
+                    <input type="button" value="Lap berobat" onclick="location='list_berobat.php'">
+                </td>
+            </tr>
+        </form>
+    </table>
+</body>
+</html>
